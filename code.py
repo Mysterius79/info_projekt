@@ -1,10 +1,7 @@
 import time
 from adafruit_circuitplayground import cp
-cp.pixels.brightness = 1
 delay = 0.04
-langsamer_modus = False
 
-    
 def change_delay(delay: float) -> float:
     if cp.button_a:
         time.sleep(0.5)
