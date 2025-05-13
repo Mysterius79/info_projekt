@@ -18,7 +18,6 @@ while True:
     #Da nichts in der Dokumentation steht, wie man Daten über das USB-Kabel senden und empfangen kann, fand ich es einfacher eine mp3 Datei temporär zu speichern und sie dann versuchen abzuspielen
     #Wenn es die Datei gibt, spielt es sie ab und fängt an zu blinken, wenn nicht dann sucht es einfach weiter
     delay = change_delay(delay)
-    print(delay)
     try:
         cp.play_mp3("trigger.mp3")
         cp.pixels.brightness = 1.0
